@@ -1,0 +1,100 @@
+/* 
+.card{
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    transition: transform linear 1s ;
+}
+.card-child{
+    border: 2px solid black;
+    width: 180px;
+    height: 120px;
+    margin: 2px;
+}
+.card{
+    transform: scale(0.3);
+}
+
+.circle{
+    border:2px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+    transition: transform linear 1s;
+    animation: sadhak 2s linear infinite;
+
+}
+.dot{
+    width: 5px;
+    height: 5px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    top: 0;
+    left: 7px;
+    
+    animation: sadhak 2s linear infinite;
+}
+.circle{
+    transform: rotate(360deg);
+}
+
+@keyframes sadhak {
+
+    0%{
+        transform: rotate(30deg);
+        background-color: blue;
+    }
+    25%{
+      transform: rotate(90deg);
+      background-color: red;
+    }
+    50%{
+        transform: rotate(180deg);
+        background-color: orange;
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+} */
+/* .grid{
+    width: 300px;
+    height: 300px;
+   border: 2px solid black;
+   display: grid;
+   grid-template-rows: 100px;
+   grid-template-rows: 100px;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.btn{
+    width: 100px;
+    height: 20px;
+   background-color: bisque;
+   outline: none;
+   border: none;
+   border: 2px solid black;
+   border-radius: 10px;
+   cursor: pointer;
+}
